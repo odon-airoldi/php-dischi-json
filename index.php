@@ -1,10 +1,4 @@
 
-<?php
-    include './records.php';
-
-    var_dump($records);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+
+    $records = json_decode(file_get_contents('./records.json'), true);
+
+?>
+
+<ul>
+    <?php
+
+        foreach($records as $record) {
+
+            echo "<li>" . $record["title"] . "</li>";
+
+        }
+
+    ?>
+</ul>
 
 
     
