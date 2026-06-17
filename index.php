@@ -16,34 +16,12 @@
     //converto json in array associativo
     $records = json_decode($data_json, true);
 
-    if(
-        isset($_POST["title"]) && !empty($_POST["title"]) &&
-        isset($_POST["artist"]) && !empty($_POST["artist"]) &&
-        isset($_POST["cover_url"]) && !empty($_POST["cover_url"]) &&
-        isset($_POST["release_year"]) && !empty($_POST["release_year"]) &&
-        isset($_POST["genre"]) && !empty($_POST["genre"])
-        ) {
-        $records[] = [
-            "title" => $_POST["title"],
-            "artist" => $_POST["artist"],
-            "cover_url" => $_POST["cover_url"],
-            "release_year" => (int) $_POST["release_year"],
-            "genre" => $_POST["genre"]
-        ];
-
-        header("Location: ./index.php");
-    }
-
-    $records_json = json_encode($records, JSON_PRETTY_PRINT);
-
-    file_put_contents('./records.json', $records_json);
-
 ?>
 
 
-<form method="POST">
-    <div><label for="title">Title</label><br><input type="text" id="title" name="title"></div>
-    <div><label for="artist">Artist</label><br><input type="text" id="artist" name="artist"></div>
+<form action="server.php" method="POST">
+    <div><label for="title">Title</label><br><input type="text" id="title" name="title" required></div>
+    <div><label for="artist">Artist</label><br><input type="text" id="artist" name="artist" required></div>
     <div><label for="cover_url">Cover url</label><br><input type="text" id="cover_url" name="cover_url" required></div>
     <div><label for="release_year">Release year</label><br><input type="text" id="release_year" name="release_year" required></div>
     <div><label for="genre">Genre</label><br><input type="text" id="genre" name="genre" required></div>
@@ -67,12 +45,6 @@
 
     <?php } ?>
 </ul>
-
-<?php
-
-
-?>
-    
     
 </body>
 </html>
