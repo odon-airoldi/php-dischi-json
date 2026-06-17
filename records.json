@@ -2,71 +2,78 @@
     {
         "title": "Never Mind the Bollocks, Here's the Sex Pistols",
         "artist": "Sex Pistols",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/63/Never_Mind_the_Bollocks_Heres_the_Sex_Pistols.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1977,
         "genre": "Punk Rock"
     },
     {
         "title": "London Calling",
         "artist": "The Clash",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/0/00/TheClashLondonCallingalbumcover.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1979,
         "genre": "Punk Rock"
     },
     {
         "title": "Dookie",
         "artist": "Green Day",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/50/GreenDayDookie.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1994,
         "genre": "Punk Rock"
     },
     {
         "title": "Master of Puppets",
         "artist": "Metallica",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1986,
         "genre": "Thrash Metal"
     },
     {
         "title": "Paranoid",
         "artist": "Black Sabbath",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/64/Black_Sabbath_-_Paranoid.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1970,
         "genre": "Heavy Metal"
     },
     {
         "title": "The Number of the Beast",
         "artist": "Iron Maiden",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/3/32/IronMaiden_NumberOfBeast.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1982,
         "genre": "Heavy Metal"
     },
     {
         "title": "Back in Black",
-        "artist": "AC/DC",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/ACDC_Back_in_Black.png",
+        "artist": "AC\/DC",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1980,
         "genre": "Hard Rock"
     },
     {
         "title": "Appetite for Destruction",
         "artist": "Guns N' Roses",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Appetite_for_Destruction.png",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1987,
         "genre": "Hard Rock"
     },
     {
         "title": "Ten",
         "artist": "Pearl Jam",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/2d/PearlJam-Ten2.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 1991,
         "genre": "Alternative Rock"
     },
     {
         "title": "Toxicity",
         "artist": "System of a Down",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
+        "cover_url": "https:\/\/placehold.co\/600x400?text=Hello+World",
         "release_year": 2001,
         "genre": "Alternative Metal"
+    },
+    {
+        "title": "f",
+        "artist": "g",
+        "cover_url": "g",
+        "release_year": 0,
+        "genre": "g"
     }
 ]
